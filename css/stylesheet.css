@@ -56,7 +56,8 @@
 }
 
 .header-label{
-	width:260px;
+	width:200px;
+	float:left;
 }
 .form-box{
 	width:260px;
@@ -65,6 +66,10 @@
 .form-group{
 	width:260px;
 	float:left;
+}
+.header-btn{
+	width:70px;
+	height:37px;
 }
 a:hover{
 	text-decoration:underline;
@@ -77,9 +82,10 @@ float:left;
 #header-img{
 	width:600px;
 	padding-left:130px;
+	margin:0 auto;
 }
 #header_img{
-	height:60px;
+	height:70px;
 	width:300px;
 	margin:0 auto;
 }
@@ -120,6 +126,7 @@ float:left;
 	font-size:12px;
 	color:#999999;
 	list-style-type:none;
+	display:block;
 }
 
 .top-moji-link{

@@ -61,10 +61,19 @@
 	width:260px;
 	float:left;
 }
+.formfiled{
+	font-size:12px;
+}
+
 .form-group{
 	width:260px;
 	float:left;
+	margin-left: 5px;
 }
+.img-input{
+	width:25%;
+}
+
 .header-btn{
 	width:70px;
 	height:37px;
@@ -80,13 +89,15 @@ float:left;
 	margin:0 auto;
 }
 #header_img{
-	height:70px;
+	height:100px;
 	width:300px;
 	margin:0 auto;
+	transform: translate(0,-25x);
 }
 .top-title{
 	text-decoration:none;
 	color:#333;
+	margin-left:5px;
 }
 .top-moji{
 	text-decoration:none;
@@ -99,15 +110,17 @@ float:left;
 }
 .top-content{
 	width:300px;
-	height:300px;
+	height:270px;
 	float:left;
 	background-color:#ffffff;
 	margin:10px;
 }
 .top-image{
 	width:960px;
-	height:960px;
-	margin:0 auto;
+	height:280px;
+	margin: auto;
+	background-color:#ffffff;
+	transform: translate(0,25px)
 }
 .top-img{
 	width:300px;

@@ -147,9 +147,10 @@ float:left;
 }
 .nav-list{
 	list-style:none;
-	padding:10px 15px 0 8px;
+	padding:10px 15px 5px 8px;
 	text-decoration: none;
 	font-size:13px;
+	margin-right:5p;
 }
 .nav-list-a{
 	color:#000;
@@ -175,12 +176,14 @@ float:left;
 
 .article_list_content{
 	float:left;
+	border-bottom:1px solid #eee;
 }
 .article_list{
-	margin-top:-10px;
+	margin-top:-10p;
 }
 .article_list_text{
 	float:left;
+	margin-right:-20px;
 }
 
 .article_list_text li{
@@ -209,10 +212,14 @@ float:left;
 	font-size:11px;
 	line-height:16px;
 }
+#site-title{
+	height:30px;
+}
 #side-inner{
-	height:75px;
+	height:60px;
 	border-left:3px solid #f18c1b;
 	padding-left:10px;
+	
 }
 #side-inner h2{
 	margin-bottom:10px;
@@ -222,6 +229,7 @@ float:left;
 #side-inner p{
 	color:#9c9c9c;
 	font-size:11px;
+	border-bottom:1px solid #eee;
 }
 
 .sidebar-bottom{
@@ -291,8 +299,12 @@ float:left;
 	width:220px;
 	height:200px;
 }
+.footer-list{
+	margin-top:-10px;
+}
 .footer-category-list{
 	list-style:none;
+	margin-top:3px;
 }
 .footer-category-list a{
 	color:#000;
@@ -304,6 +316,7 @@ float:left;
 }
 .footer-category-li{
 	font-size:12px;
+	padding:3px 0;
 }
 .footer-about p{
 	font-size:14px;
@@ -313,9 +326,13 @@ float:left;
 .footer-about li{
 	list-style:none;
 	font-size:12px;
+	padding:3px 0;
 }
 .footer-about a{
 	color:#000;
+}
+.footer-about-list{
+	margin-top:-10px;
 }
 .footer-box{
 	float:left;

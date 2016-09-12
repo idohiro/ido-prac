@@ -13,7 +13,7 @@
 #header{
 	width:950px;
 	background-color:#fff;
-	height:150px;
+	height:105px;
 	margin:0 auto;
 }
 
@@ -49,6 +49,7 @@
 
 .header-bottom{
 	width:960px;
+	transform:translate(0,-17px);
 }
 
 .header-label{
@@ -58,6 +59,7 @@
 .form-box{
 	width:260px;
 	float:left;
+	height:30px;
 }
 .formfiled{
 	font-size:12px;
@@ -69,7 +71,9 @@
 	margin-left: 5px;
 }
 .img-input{
-	width:25%;
+	transform:translate(182px,-41px);
+	height:45px;
+	width:70px;
 }
 
 .header-btn{
@@ -87,10 +91,9 @@ float:left;
 	margin:0 auto;
 }
 #header_img{
-	height:100px;
-	width:300px;
+	height:58px;
+	width:325px;
 	margin:0 auto;
-	transform: translate(0,-25x);
 }
 .top-title{
 	text-decoration:none;
@@ -139,8 +142,10 @@ float:left;
 .top-moji-link p{
 	margin-top:20px;
 }
-#wrapper{
+.wrapper{
 	background-color:#fff;
+	height:1050px;
+	
 }
 #nav-menu{
 	float:right;
@@ -275,11 +280,11 @@ float:left;
 
 }
 .footer{
-	width:960px;
+	width:1500px;
 	margin:0 auto;
-	height:700px;
+	height:300px;
 	border-top:1px solid #eee;
-	border-bottom:1px solid #eee;
+	border-bottom:1px solid #eee; 
 }
 .footer-inner{
 	width:750px;
@@ -337,4 +342,9 @@ float:left;
 .footer-box{
 	float:left;
 	margin:10px;
+}
+#footer-img{
+	width:200px;
+	height:35px;
+	transform:translate(30px,30px);
 }

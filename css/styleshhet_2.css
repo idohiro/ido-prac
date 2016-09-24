@@ -7,6 +7,41 @@
 .clearfix::after{
 	content:"";
 	display: block;
-	clear:both;
+	clear:both;	
+}
+#header{
+	position:relative;
+	background:#fff;
+	height:95px;
+	border-bottom:2px solid #eee;
+}
+.copy{
+	font-size:12px;
+	margin:0 424px 0 0;
+}
+input[type=submit]{
+	font-family:FontAwesome;
+	/*FontAwesomeをフォント指定*/
 	
+}
+#header_top>a{
+	font-size:12px;
+	margin:0 0 0 18px;
+	color:#000;
+}
+.header_inner{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+}
+
+.logo{
+	margin:-37px 0 0 0 ;
+	font-size:24px;
+	text-align:center;
+}
+.head_search{
+	position:relative;
+	left:0;
+	top:20px;
 }
